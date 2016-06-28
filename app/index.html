@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+<div class="box"><h2>Sign Up for my web app</h2></div>
+
+
+
+      <form class="dynamic-form">
+        <div>
+         <label class="first" for="First Name">First Name:</label>
+         <input type="text" id="name" name="first_name" />
+     </div>
+     <div>
+         <label class="last" for="Last Name">Last Name:</label>
+         <input type="text" id="lastName" name="last_name" />
+     </div>
+     <div>
+
+         <label class="email" for="mail">E-mail Address:</label>
+         <input type="email" id="mail" name="user_mail" />
+     </div>
+     <div>
+
+         <label class="web" for="website">Current Website URL:</label>
+         <input type="website" id="website" name="website" />
+     </div>
+
+     <div align="center">
+<select class="dropdown" name="mydropdown">
+  <option>Select Language</option>
+<option value="eng">English</option>
+<option value="span">Spanish</option>
+<option value="itl">Italian</option>
+</select>
+</div>
+
+     <div>
+         <label class="msg" for="msg">Your Comment:</label>
+         <textarea id="msg" name="user_message"></textarea>
+     </div>
+
+     <div>
+         <label class="mnum" for="number">Mobile Number:</label>
+         <input id="number" name="number" />
+     </div>
+
+     <div>
+         <label class="hnum" for="number">Home Number:</label>
+         <input id="number" name="number" />
+     </div>
+
+
+
+      <button class="submit">Submit Form</button>
+    </div>
+</form>
+
+
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
