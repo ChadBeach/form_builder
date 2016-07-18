@@ -1,5 +1,9 @@
 import $ from 'jquery';
-var url =  'http://json-data.herokuapp.com/forms'
+
+var url = "http://json-data.herokuapp.com/forms"
+var formRequest = $.ajax(url);
+//var formRequest = $.ajax({url: url})
+
 
 var data = $.ajax({
   url: url,
@@ -24,10 +28,10 @@ function itemTemplate (x){
 
 <label for="">First Name</label>
 
-// console.log(data.responseJSON);
+ console.log(data.responseJSON);
 
 
 
-// $(".submit").on('click', function (e) {
-//   event.preventDefault();
-// });
+ $(".submit").on('click', function (e) {
+   event.preventDefault();
+ });

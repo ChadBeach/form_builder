@@ -13,6 +13,7 @@
 
 h2 {
   color: white;
+  margin-top: 50px;
 
 }
 
@@ -46,7 +47,17 @@ h2 {
   margin-top: 10px;
 }
 
-.msg
+.dropdown {
+  width: 400px;
+float: left;
+}
+
+.msg {
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
 .mnum {
   font-size: 10px;
@@ -62,10 +73,7 @@ h2 {
   margin-top: 10px;
 }
 
-.dropdown {
-  width: 400px;
-float: left;
-}
+
 
 
 .msg {
@@ -79,4 +87,10 @@ float: left;
   height: 50px;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.dynamic-form {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
